@@ -27,7 +27,7 @@ O site é destinado há uma plataforma para apresentar o cardápio da loja de bo
 ### SEO e Marketing
 
 - **Palavras-chave:** Bolos artesanais, sobremesas caseiras, bolos de aniversário.
-- **Redes Sociais: (...)**
+- **Redes Sociais: em breve...**
 
 # Estrutura de Desenvolvimento 🛠
 
