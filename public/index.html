@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feito com Amor</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/public/css/output.css" rel="stylesheet">
+
+</head>
+<body class="bg-[url('/public/images/bg.png')] text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-pink-500 p-4 text-white bg-[url('/public/images/bg-icons.png')]">
+        
+        <div class="flex justify-center space-x-4">
+            <h1 class="text-6xl font-bold text-center">👩🏻‍🍳💕 Feito com Amor 💕👩🏻‍🍳</h1>
+        </div>
+        <nav class="mt-2">
+            <ul class="flex justify-center space-x-4">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#bolos-aniversario">Bolos de Aniversário</a></li>
+                <li><a href="#sobre-nos">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="py-10 text-center">
+        <h2 class="text-5xl font-bold">Bem-vindo à Nossa Loja!</h2>
+        <p>Delicie-se com nossos bolos e sobremesas artesanais.</p>
+    </section>
+
+    <!-- Cardápio Section -->
+    <section id="cardapio" class="py-10">
+        <h2 class="text-5xl font-bold text-center">Nosso Cardápio</h2>
+        <h2 class="text-5xl font-bold text-center">Bolos</h2>
+        <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-4 p-4">
+            <div>
+                <img src="/public/images/bolo-aipim.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de aipim</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-abacaxi.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de abacaxi</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-banana.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de banana</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-cenoura-chocolate.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de cenoura com chocolate</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-chocolate.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de chocolate</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-formigueiro.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo formigueiro</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-fuba.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de fubá</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-fuba-goiabada.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de fubá com goiabada</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-laranja.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de laranja</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-limão.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de limão</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-marmore.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de marmore</h3>
+            </div>
+            <div>
+                <img src="/public/images/bolo-milho.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Bolo de milho</h3>
+            </div>      
+            <!-- Adicione mais itens (bolos) acima -->
+        </div>
+        <h2 class="text-5xl font-bold text-center">Sobremesas</h2>
+        <div class="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-4 p-4">
+            <div>
+                <img src="/public/images/torta-maracuja.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Torta de maracujá</h3>
+            </div> 
+            <div>
+                <img src="/public/images/pudim.png" alt="">
+                <h3 class="text-center font-bold text-2xl">Pudim</h3>
+            </div> 
+            <!-- Adicione mais itens (sobremesas) acima -->
+        </div>
+    </section>
+
+    <!-- Bolos de Aniversário Section -->
+    <section id="bolos-aniversario" class="py-10 flex justify-center items-center flex-col gap-4">
+        <h2 class="text-5xl font-bold text-center">Bolos de Aniversário</h2>
+        <div>
+            <img src="/public/images/bolo-aniversario.png" alt="" class="w-96">
+            <!-- Adicione imagens e descrições de bolos de aniversário acima -->
+        </div>
+    </section>
+
+    <!-- Sobre Nós Section -->
+    <section id="sobre-nos" class="py-10">
+        <h2 class="text-5xl font-bold text-center">Sobre Nós</h2>
+        <p class="text-center">Nossa história e compromisso com a culinária caseira.</p>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="py-10">
+        <h2 class="text-5xl font-bold text-center">Contato</h2>
+        <form class="max-w-md mx-auto">
+            <input type="text" placeholder="Seu Nome" class="border p-2 w-full mb-4" required>
+            <textarea placeholder="Sua Mensagem" class="border p-2 w-full mb-4" required></textarea>
+            <button type="submit" class="bg-pink-500 text-white p-2 w-full">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 text-center p-4">
+        <p>&copy; 2024 Feito com Amor. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
