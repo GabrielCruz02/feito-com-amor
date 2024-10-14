@@ -4,7 +4,12 @@ module.exports = {
     './index.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-section' : "url('/public/images/bg.svg')",
+        'icons-texture' : "url('/public/images/bg-icons.svg')"
+      }
+    },
   },
   plugins: [],
 }
