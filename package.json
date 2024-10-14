@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./public/css/styles.css -o ./public/css/output.css --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i ./public/css/styles.css -o ./public/css/output.css --watch"
   },
   "keywords": [],
   "author": "",
