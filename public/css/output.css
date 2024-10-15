@@ -622,12 +622,12 @@ video {
   background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
-.bg-hero-pattern {
-  background-image: url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/public/images/bg.png?raw=true');
+.bg-\[url\(\'https\:\/\/github\.com\/GabrielCruz02\/feito-com-amor\/blob\/main\/public\/images\/bg-icons\.png\?raw\=true\'\)\] {
+  background-image: url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/public/images/bg-icons.png?raw=true');
 }
 
-.bg-icons-texture {
-  background-image: url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/public/images/bg-icons.png?raw=true');
+.bg-\[url\(\'https\:\/\/github\.com\/GabrielCruz02\/feito-com-amor\/blob\/main\/public\/images\/bg\.png\?raw\=true\'\)\] {
+  background-image: url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/public/images/bg.png?raw=true');
 }
 
 .p-2 {
