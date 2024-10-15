@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/public/images/bg.png')",
-        'icons-texture': "url('/public/images/bg-icons.png')"
+        'hero-pattern': "url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/public/images/bg.png?raw=true')",
+        'icons-texture': "url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/public/images/bg-icons.png?raw=true')"
       }
     },
   },
