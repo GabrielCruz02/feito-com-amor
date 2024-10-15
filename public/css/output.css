@@ -617,21 +617,20 @@ video {
   border-width: 1px;
 }
 
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
 .bg-pink-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/public\/images\/bg-icons\.png\'\)\] {
+.bg-\[url\(\'\/images\/bg\.png\'\)\] {
+  background-image: url('/images/bg.png');
+}
+
+.bg-icons-texture {
   background-image: url('/public/images/bg-icons.png');
 }
 
-.bg-\[url\(\'\/public\/images\/bg\.png\'\)\] {
+.bg-hero-pattern {
   background-image: url('/public/images/bg.png');
 }
 
