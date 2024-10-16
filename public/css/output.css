@@ -770,6 +770,10 @@ select {
   display: grid;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-96 {
   width: 24rem;
 }
@@ -817,28 +821,12 @@ select {
   background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'https\:\/\/github\.com\/GabrielCruz02\/feito-com-amor\/blob\/main\/public\/images\/bg-icons\.png\?raw\=true\'\)\] {
-  background-image: url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/public/images/bg-icons.png?raw=true');
-}
-
-.bg-\[url\(\'https\:\/\/github\.com\/GabrielCruz02\/feito-com-amor\/blob\/main\/public\/images\/bg\.png\?raw\=true\'\)\] {
-  background-image: url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/public/images/bg.png?raw=true');
-}
-
-.bg-\[url\(\'https\:\/\/github\.com\/GabrielCruz02\/feito-com-amor\/blob\/main\/images\/bg-icons\.png\?raw\=true\'\)\] {
-  background-image: url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/images/bg-icons.png?raw=true');
-}
-
-.bg-\[url\(\'https\:\/\/github\.com\/GabrielCruz02\/feito-com-amor\/blob\/main\/images\/bg\.png\?raw\=true\'\)\] {
-  background-image: url('https://github.com/GabrielCruz02/feito-com-amor/blob/main/images/bg.png?raw=true');
+.bg-\[url\(\'images\/bg-icons\.png\'\)\] {
+  background-image: url('images/bg-icons.png');
 }
 
 .bg-\[url\(\'images\/bg\.png\'\)\] {
   background-image: url('images/bg.png');
-}
-
-.bg-\[url\(\'images\/bg-icons\.png\'\)\] {
-  background-image: url('images/bg-icons.png');
 }
 
 .p-2 {
