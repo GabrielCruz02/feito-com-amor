@@ -765,6 +765,11 @@ select {
   display: grid;
 }
 
+.size-1\/2 {
+  width: 50%;
+  height: 50%;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -783,6 +788,18 @@ select {
 
 .w-full {
   width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .grid-cols-3 {
@@ -855,14 +872,27 @@ select {
   text-align: center;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.align-middle {
+  vertical-align: middle;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-\[min\(50vw\2c 2\.5rem\)\] {
+  font-size: min(50vw,2.5rem);
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -885,6 +915,10 @@ select {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -896,14 +930,14 @@ select {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -916,13 +950,18 @@ select {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
-  .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 
@@ -931,8 +970,8 @@ select {
     line-height: 2.5rem;
   }
 
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
